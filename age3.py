@@ -1,5 +1,6 @@
 driving = input('你有沒有開過車:')
 if driving !='y' and driving != 'n':
+	print('你打錯囉!!')
 	raise SystemExit
 
 age = input ('你幾歲:')
